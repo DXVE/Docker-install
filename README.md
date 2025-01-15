@@ -2,7 +2,7 @@
 
 安装必要的依赖包
 
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
+`sudo apt install apt-transport-https ca-certificates curl software-properties-common`
 
 添加Docker 的官方 GPG 密钥
 
