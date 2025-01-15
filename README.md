@@ -11,6 +11,7 @@
 ##添加 Docker 仓库
 
 	echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+</br>
 
 	sudo apt update
 
@@ -21,6 +22,7 @@
 ##启动并启用 Docker 服务
 
 	sudo systemctl start docker
+</br>
 
 	sudo systemctl enable docker
 
@@ -36,6 +38,7 @@
  ##配置守护进程的网络代理[https://docs.docker.com/engine/daemon/proxy/#daemon-configuration](url)
 
  	sudo mkdir -p /etc/systemd/system/docker.service.d
+</br>
 
   	nano /etc/systemd/system/docker.service.d/http-proxy.conf
 
