@@ -2,11 +2,11 @@
 
 安装必要的依赖包
 
-`sudo apt install apt-transport-https ca-certificates curl software-properties-common`
+	`sudo apt install apt-transport-https ca-certificates curl software-properties-common`
 
 添加Docker 的官方 GPG 密钥
 
-```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg```
+	```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg```
 
 添加 Docker 仓库
 
